@@ -1,5 +1,4 @@
-def promedio_estudiantes(números):
-    if len(números) == 0:
+def promedio_estudiantes(calificaciones):
+    if len(calificaciones) == 0:
         return 0.0
-    return sum(números) / len(números)
-
+    return sum(calificaciones) / len(calificaciones)
