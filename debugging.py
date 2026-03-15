@@ -12,22 +12,23 @@ def get_daily_steps():
 def total_steps(nums):
     """Return total steps."""
     total = sum(nums)
+    return total
 
 # Function to calculate average daily steps
 def average_steps(total, days=7):
     """Return average steps as int."""
-    return total / days
+    return total // days
 
 # Function to get maximum steps
 def max_steps(nums):
     """Return max steps."""
     max_val = max(nums)
-    return maxvalue
+    return max_val
 
 # Function to get minimum steps
 def min_steps(nums):
     """Return min steps."""
-    return min(nums)
+    return min_steps
 
 # Function to check if each day meets the goal
 def goal_check(nums, goal=10000):
@@ -35,9 +36,9 @@ def goal_check(nums, goal=10000):
     result = []
     for s in nums:
         if s >= goal:
-            result.append("True")
+            result.append(True)
         else:
-            result.append("False")
+            result.append(False)
     return result
 
 # ----------------------
