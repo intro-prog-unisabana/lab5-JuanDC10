@@ -1,5 +1,5 @@
-int_value = int()
-str_value = str()
+int_value = ()
+str_value = ()
 def set_globals(some_int, some_str):
     global int_value
     global str_value
