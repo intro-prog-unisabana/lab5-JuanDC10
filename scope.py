@@ -1,3 +1,5 @@
+int_value = int()
+str_value = str()
 def set_globals(some_int, some_str):
     global int_value
     global str_value
