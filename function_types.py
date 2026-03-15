@@ -3,7 +3,7 @@ def list_shift (lista, valor):
         lista[i] = lista[i] + valor
 def calc_avg (lista):
     sum = 0
-    for num in list:
+    for num in lista:
         suma = num + sum
-        promedio = suma / len(list)
+        promedio = suma / len(lista)
     return promedio
