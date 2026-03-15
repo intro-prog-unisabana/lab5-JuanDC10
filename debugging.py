@@ -28,7 +28,7 @@ def max_steps(nums):
 # Function to get minimum steps
 def min_steps(nums):
     """Return min steps."""
-    return min_steps
+    return min(nums)
 
 # Function to check if each day meets the goal
 def goal_check(nums, goal=10000):
