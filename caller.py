@@ -3,5 +3,5 @@ from mystery_module import transform_data
 x = int(input())
 y = float(input())
 # FREEZE CODE END
-a = transform_data(x,y,"quiz_test")
-print(a)
+a = transform_data(x, y, "quiz_test")
+print(float(a))
